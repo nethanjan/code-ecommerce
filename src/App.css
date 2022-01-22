@@ -65,3 +65,14 @@
   border: none;
   font-size: 18px;
 }
+
+.cart-badge {
+  margin-top: -15px;
+  margin-left: 18px;
+  font-size: 12px;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+}

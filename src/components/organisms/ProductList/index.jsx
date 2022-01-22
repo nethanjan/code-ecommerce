@@ -18,16 +18,7 @@ function ProductList(props) {
   const renderProducts = () => {
     const productList = [];
     products.forEach((element, i) => {
-      productList.push(
-        <Product
-          key={element.id}
-          id={element.id}
-          imageUrl={element.details.image}
-          title={element.name}
-          price={element.details.price}
-          tag={element.details.tag}
-        />
-      );
+      productList.push(<Product key={element.id} product={element} />);
     });
     return productList;
   };
