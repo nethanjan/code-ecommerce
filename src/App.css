@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+#sidebar {
+  width: 20%;
+  padding: 10px;
+  margin: 0;
+  float: left;
+}
+
+.round-button {
+  border-radius: 50%;
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#products {
+  width: 80%;
+  padding: 10px;
+  margin: 0;
+  float: right;
+}
+
+.add-to-cart {
+  border: none;
+  font-size: 18px;
+}
