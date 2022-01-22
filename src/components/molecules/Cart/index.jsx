@@ -1,5 +1,6 @@
+import PropTypes from "prop-types";
+
 function Cart({ product }) {
-  console.log(product);
   return (
     <tr>
       <td>
@@ -13,5 +14,14 @@ function Cart({ product }) {
     </tr>
   );
 }
+
+Cart.propTypes = {
+  product: PropTypes.shape({
+    image: PropTypes.string,
+    name: PropTypes.string,
+    quantity: PropTypes.number,
+    price: PropTypes.number,
+  }).isRequired,
+};
 
 export default Cart;
